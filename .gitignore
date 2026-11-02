@@ -147,3 +147,13 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Imagenes subidas al servidor
+backend/src/public/uploads/*
+!backend/src/public/uploads/.gitkeep
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
